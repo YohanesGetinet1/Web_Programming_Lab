@@ -1,7 +1,7 @@
 # Web Programming Course Lab Excercises
 # Jain university 
 
-![ Web Programming ]("images.ipeg")
+![ Web Programming ]("https://github.com/YohanesGetinet1/Web_Programming_Lab/blob/main/images.jpeg")
  
 
 ## Table of Content
