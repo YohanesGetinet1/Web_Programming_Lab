@@ -1,0 +1,47 @@
+html {
+    font-family: 'Montserrat', sans-serif;
+    background: url(c.jpg) no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+body {
+    text-align: center;
+}
+form {
+    width:fit-content;
+    height: fit-content;
+    display: inline-block;
+    
+}
+form>fieldset{
+    border-color: cadetblue;
+    border-radius: 15px;
+}
+fieldset#output{
+height: fit-content;
+border-radius: 25px;
+}
+p{
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    } 
+
+/* input:-internal-autofill-selected
+{
+        border-radius: 20px;
+} */
+  input[type="button" i]
+  {
+    border-radius: 75px;
+    color: mediumseagreen;
+    transition-duration: 0.4s;
+
+  }
+  input[type="button" i]:hover 
+  {
+    background-color: #4CAF50;
+    color: white;
+  }

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<head>
+    <title>Details</title>
+</head>
+<body>
+   
+    <div class="container">
+        <fieldset> 
+            <legend style="text-size-adjust:12px;">Details:</legend>
+            <p id=para> </p>
+        </fieldset>
+       
+    </div>
+    
+    <script>
+        var parts = document.URL.split("?");
+        var p = parts[1].split("&");
+        for (i = 0; i < p.length; i++) {
+            document.getElementById('para').innerHTML =
+                document.getElementById('para').innerHTML + '<br>' + p[i];
+        }
+    </script>
+</body>
+<style>
+    html{
+        background-image: url(3.jpg);
+        background-repeat: round;
+    }
+
+    body{
+        text-align: center;
+        color: yellow;
+    }
+    fieldset{
+        width:fit-content;
+        height: fit-content;
+        display: inline-block;
+        border-radius: 45px;
+        border-color: springgreen;
+    }
+    legend {
+    font-size:  1.4em;
+    font-weight:  bold;
+    position:  relative;
+    top:  -.4em;
+}
+</style>
+</html>

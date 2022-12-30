@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <script src="index.js"></script>
+    <title>Calculator</title>
+</head>
+<body>
+    <h2>Simple calculator</h2>
+    <form>
+        <fieldset>
+            <legend>Calculator</legend>
+            <label for="Number1">First Number: </label>
+            <input type="text" id="Number1"><br><br>
+            <label for="Number2">Second Number: </label>
+            <input type="text" id="Number2"><br><br>
+            <input  type="button" value="Addition" onclick="add()">
+            <input  type="button" value="Subtraction" onclick="sub()">
+            <input  type="button" value="Multiplication" onclick="mul()">
+            <input  type="button" value="Division" onclick="div()">
+            <fieldset id="output"><p id="result"></p></fieldset>
+        </fieldset>
+    </form>
+</body>
+</html>

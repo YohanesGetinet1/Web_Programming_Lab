@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countries and their Capitals</title>
+    <script type="text/javascript">
+        function getCapital()
+        {
+        document.getElementById("capital").innerHTML =
+        document.getElementById("country").value;
+        }
+    </script>
+
+    <style>
+        
+    html{
+        background-image: url(19977083470c87e2e345281191ed27e2.jpg);
+        background-repeat: no-repeat;
+        width: 100%;
+        height: 100%;
+        background-size: 85%;
+        margin-right: 45px;
+        
+    }
+    #title>h2{
+        text-align: center;
+        color: lightseagreen;
+    }
+    div.selector {
+        position: relative;
+        font-family: Arial;
+    }
+    #capital{
+        text-align: center;
+        color: darkorchid;
+        position: relative;
+    }
+    </style>
+    
+</head>
+<body>
+    <div id="title">
+        <h2>Countries and thier Capitals</h2>
+    </div>
+    <div class="selector"> <select id="country" onchange="getCapital()">
+        <option>Select the country</option>
+        <option value="Adiss Abeba">Ethiopia 🇪🇹</option>
+        <option value="New Delhi">India 🇮🇳</option>
+        <option value="Washington DC">USA 🇺🇸</option>
+        <option value="Beijing">China 🇨🇳</option>
+        <option value="Tokyo">Japan 🇯🇵</option>
+        <option value="Berlin">Germany 🇩🇪</option>
+        <option value="Kyiv">Ukraine 🇺🇦</option>
+        <option value="Moscow">Russia 🇷🇺</option>
+        </select></div>
+        <div><h1 id="capital"></h1></div>
+        
+   
+</body>
+</html>
