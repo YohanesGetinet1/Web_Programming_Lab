@@ -1,9 +1,6 @@
 # Web Programming
 
-![HTML](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/HTML5.png)
-![CSS](https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg)
-![JavaScript](https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg)
-![PHP](https://github.com/tandpfun/skill-icons/blob/main/icons/PHP-Light.svg)
+![HTML](https://github.com/gauravghongde/social-icons/blob/master/PNG/Color/HTML5.png)![CSS](https://github.com/tandpfun/skill-icons/blob/main/icons/CSS.svg)![JavaScript](https://github.com/tandpfun/skill-icons/blob/main/icons/JavaScript.svg)![PHP](https://github.com/tandpfun/skill-icons/blob/main/icons/PHP-Light.svg)
 
 ---
 
